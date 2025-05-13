@@ -1,0 +1,10 @@
+<product>
+<name>apple</name>
+<price>1.50</price>
+<description>Fresh green apple</description>
+<KeyWords>
+  <word>Juicy</word>
+  <word>green</word>
+  <word>apple</word>
+</KeyWords>
+</product>
