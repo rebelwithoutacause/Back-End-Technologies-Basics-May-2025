@@ -1,0 +1,34 @@
+{
+  "devices": [
+    {
+      "type": "Laptop",
+      "brand": "Dell XPS 13",
+      "specs": "13.4-inch display",
+      "price": 200
+    },
+    {
+      "type": "Smartphone",
+      "brand": "Apple iPhone 12",
+      "specs": "64GB storage",
+      "price": 799
+    },
+    {
+      "type": "Tablet",
+      "brand": "Samsung Galaxy Tab S7",
+      "specs": "11-inch screen",
+      "price": 650
+    },
+    {
+      "type": "Headphones",
+      "brand": "Bose QuietComfort 35 II",
+      "specs": "Noise-cancelling",
+      "price": 299
+    },
+    {
+      "type": "Camera",
+      "brand": "Canon EOS Rebel T7 DSLR",
+      "specs": "24.1 MP",
+      "price": 449
+    }
+  ]
+}

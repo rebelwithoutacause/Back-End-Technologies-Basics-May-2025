@@ -1,0 +1,34 @@
+{
+  "vehicles": [
+    {
+      "type": "Car",
+      "model": "Tesla Model 3",
+      "specs": "Electric sedan",
+      "color": "red"
+    },
+    {
+      "type": "Motorcycle",
+      "model": "Harley-Davidson",
+      "specs": "V-twin engine",
+      "color": "black"
+    },
+    {
+      "type": "Bicycle",
+      "model": "Giant Escape 3",
+      "specs": "Aluminum frame",
+      "color": "black"
+    },
+    {
+      "type": "Scooter",
+      "model": "Vespa Primavera",
+      "specs": "50cc engine",
+      "color": "white"
+    },
+    {
+      "type": "Boat",
+      "model": "Bayliner Element",
+      "specs": "18-foot length",
+      "color": "black"
+    }
+  ]
+}
