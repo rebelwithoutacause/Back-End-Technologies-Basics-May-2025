@@ -1,0 +1,34 @@
+
+version: '3.9'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=yourStrongPassword12#
+    ports:
+      - "1433:1433"
+    networks:
+      - taskboard_network
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  taskboard_app:
+    build:
+      context: ./TaskBoard.WebApp
+      dockerfile: Dockerfile
+    container_name: taskboard_app
+    ports:
+      - "5000:80"
+    depends_on:
+      - sqlserver
+    networks:
+      - taskboard_network
+
+networks:
+  taskboard_network:
+
+volumes:
+  sql_data:
